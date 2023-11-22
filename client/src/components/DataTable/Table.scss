@@ -1,0 +1,27 @@
+.Table {
+  margin-top: 10px;
+
+  .dataTable {
+    padding: 18px;
+    background: white;
+    .item {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .iconDelete {
+        color: red;
+      }
+      .icon {
+        color: rgb(103, 103, 187);
+      }
+      .iconDelete,
+      .icon {
+        opacity: 0.8;
+        &:hover {
+          cursor: pointer;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
